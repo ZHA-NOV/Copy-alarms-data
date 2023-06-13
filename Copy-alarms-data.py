@@ -64,7 +64,7 @@ async def execute_smb_download():
 # Create an asyncio event loop
 loop = asyncio.get_event_loop()
 
-# Schedule the SMB file download coroutine to run every 30 seconds
+# Schedule the SMB file download coroutine to run every 30 seconds [need to come up with a proper time gap]
 loop.create_task(execute_smb_download())
 
 try:
