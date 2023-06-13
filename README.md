@@ -6,4 +6,5 @@ The main traget: Create a service that reads the alarm log files from the boxpc 
 
 -----------------------------------------------------------
 Terminal command for cron job (interval every 2 hours as an example; .sh file path can be different):
+
 0 */2 * * * /bin/bash /home/moxa/logs/smbget.sh
